@@ -14,7 +14,15 @@ class Home extends Component {
 
             <br/><br/>
           </div>
-        
+
+          <div className="pure-u-1-1">
+            <h2>Ethnote</h2>
+            <h3>get_notebooks</h3>
+            <p><strong>String 1</strong>: <ContractData contract="Ethnotes" method="get_notebooks" toUtf8 /></p>
+
+            <br/><br/>
+          </div>
+
           <div className="pure-u-1-1">
             <h2>SimpleStorage</h2>
             <p>This shows a simple ContractData component with no arguments, along with a form to set its value.</p>

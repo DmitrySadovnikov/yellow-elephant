@@ -16,7 +16,7 @@ contract ComplexStorage {
 
 	uint[] public uintarray;
 	DeviceData[] public deviceDataArray;
-    DeviceData public singleDD;
+  DeviceData public singleDD;
 
 	struct DeviceData {
 		string deviceBrand;
@@ -33,7 +33,7 @@ contract ComplexStorage {
 
 		var dev1 = DeviceData("deviceBrand", "deviceYear", "wearLevel");
 		var dev2 = DeviceData("deviceBrand2", "deviceYear2", "wearLevel2");
-        var dev3 = DeviceData("deviceBrand3", "deviceYear3", "wearLevel3");
+    var dev3 = DeviceData("deviceBrand3", "deviceYear3", "wearLevel3");
 
 		structs1[address1] = dev1;
 		structs1[address2] = dev2;
