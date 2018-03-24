@@ -8,17 +8,6 @@ class Home extends Component {
       <main className="container">
         <div className="pure-g">
           <div className="pure-u-1-1 header">
-            <img src={logo} alt="drizzle-logo" />
-            <h1>Drizzle Examples</h1>
-            <p>Examples of how to get started with Drizzle in various situations.</p>
-
-            <br/><br/>
-          </div>
-
-          <div className="pure-u-1-1">
-            <h2>Ethnote</h2>
-            <h3>get_notebooks</h3>
-            <p><strong>String 1</strong>: <ContractData contract="Ethnotes" method="get_notebooks" toUtf8 /></p>
 
             <br/><br/>
           </div>
