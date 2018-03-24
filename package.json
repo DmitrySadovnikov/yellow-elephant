@@ -34,14 +34,12 @@
     "http-proxy-middleware": "0.17.2",
     "jest": "17.0.2",
     "json-loader": "0.5.4",
-    "node-sass": "^4.7.2",
     "object-assign": "4.1.0",
     "path-exists": "2.1.0",
     "postcss-loader": "1.0.0",
     "promise": "7.1.1",
     "react-dev-utils": "^0.4.2",
     "recursive-readdir": "2.1.0",
-    "sass-loader": "^6.0.7",
     "strip-ansi": "3.0.1",
     "style-loader": "0.13.1",
     "truffle-contract": "^1.1.8",
@@ -51,11 +49,9 @@
     "webpack-dev-server": "1.16.2",
     "webpack-manifest-plugin": "1.1.0",
     "whatwg-fetch": "1.0.0",
-    "zeppelin-solidity": "1.7.0"
+    "zeppelin-solidity": "^1.6.0"
   },
   "dependencies": {
-    "material-ui": "^1.0.0-beta.37",
-    "material-ui-icons": "^1.0.0-beta.36",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "react-redux": "^5.0.2",
@@ -103,21 +99,5 @@
   },
   "eslintConfig": {
     "extends": "react-app"
-  },
-  "description": "",
-  "main": "truffle-config.js",
-  "directories": {
-    "test": "test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DmitrySadovnikov/yellow-elephant.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/DmitrySadovnikov/yellow-elephant/issues"
-  },
-  "homepage": "https://github.com/DmitrySadovnikov/yellow-elephant#readme"
+  }
 }
