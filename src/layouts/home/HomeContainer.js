@@ -7,6 +7,8 @@ const mapStateToProps = state => {
     accounts: state.accounts,
     SimpleStorage: state.contracts.SimpleStorage,
     TutorialToken: state.contracts.TutorialToken,
+    Ethnote:       state.contracts.Ethnote,
+    web3:          state.web3,
     drizzleStatus: state.drizzleStatus
   }
 }

@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import { ContractData, ContractForm } from 'drizzle-react-components'
-import logo from '../../logo.png'
 
 class Home extends Component {
+
   render() {
     return (
       <main className="container">
@@ -10,6 +10,10 @@ class Home extends Component {
           <div className="pure-u-1-1 header">
 
             <br/><br/>
+          </div>
+
+          <div className="pure-u-1-1 header">
+            <ContractData contract="Ethnote" method="getNotebook" methodArgs={["0"]} />
           </div>
 
           <div className="pure-u-1-1">

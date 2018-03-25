@@ -1,3 +1,5 @@
+
+
 import AuthenticationContract from '../../../../build/contracts/Authentication.json'
 import { loginUser } from '../loginbutton/LoginButtonActions'
 import store from '../../../store'

@@ -6,7 +6,7 @@ import List from 'material-ui/List';
 import Divider from 'material-ui/Divider';
 import { mailFolderListItems, otherMailFolderListItems } from './tileData';
 import NetworkInfo from './NetworkInfo';
-import { ContractData, ContractForm } from 'drizzle-react-components'
+import { ContractData, ContractForm } from 'drizzle-react-components';
 import Typography from 'material-ui/Typography';
 
 const drawerWidth = 240;
@@ -50,8 +50,7 @@ function ClippedDrawer(props) {
         <div className={ classes.toolbar }/>
         <div style={ { padding: '24px' } }>
           <Typography variant="subheading" id="notebooks-count">
-            Notebooks <ContractData contract="Ethnote"
-                                    method="getNotebooksCount"/>
+            Notebooks <ContractData contract="Ethnote" method="getNotebooksCount"/>
           </Typography>
         </div>
         <List>{ mailFolderListItems }</List>

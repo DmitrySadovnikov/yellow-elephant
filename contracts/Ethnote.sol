@@ -158,7 +158,7 @@ contract Ethnote {
     note.created_at,
     note.updated_at,
     note.deleted_at
-  );
+    );
   }
 
   function createNotebook(string _title) payable public returns (uint id) {
